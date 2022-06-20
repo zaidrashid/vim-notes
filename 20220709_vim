@@ -1,0 +1,16 @@
+const item1 = "Here is a variable";
+const item2 = "Here is a variable";
+
+function addTwoNumbers = (number1, number2) => {
+	return number1 + number2;
+}
+
+addTwoNumbers 
+(number1, number2)
+
+https://www.youtube.com/watch?v=H3o4l4GVLW0&t=5s
+
+addTwoNumbers 
+
+const item1 = "Here is a variable";
+const item1 = "Here is a variable";
