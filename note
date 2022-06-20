@@ -1,0 +1,28 @@
+Part 1 - https://youtu.be/H3o4l4GVLW0
+Command Mode
+
+j - go down
+k - go up
+h - move cursor left
+l - move cursor right
+yy - yank (copy line)
+p - past one line below
+dd - delete one line
+u - undo whatever from the registry (include dd)
+dj - delete current line and one down
+yj - yank currentd line and one down
+yw - yank a word
+
+
+
+Visual line mode
+v - enter visual line mode
+Shift + V in Command mode
+in visual mode, can press `j` or `k` to move cursor up down and highlight
+
+Escape into Command mode
+Esc
+Ctrl + C
+Ctrl + [
+
+
