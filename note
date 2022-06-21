@@ -6,23 +6,37 @@ k - go up
 h - move cursor left
 l - move cursor right
 yy - yank (copy line)
-p - past one line below
+p - paste one line below
+Shift + p - paste one line above
 dd - delete one line
 u - undo whatever from the registry (include dd)
 dj - delete current line and one down
+
+// yank is copy
 yj - yank currentd line and one down
 yw - yank a word
+// insert new line
+o - insert new line below
+O - insert new line above
+/ - start searching (hit Enter)
+	n - hop through result
+	Shift + n - hop back result
+	* - hop through result
+	# - hop back
 
 
+Insert mode
+a - insert at the cursor
+Shift + i - insert at the beginneng of the line (not including the whitespace)
+Shift + a - insert at the ending of the line (not including the whitespace)
 
 Visual line mode
 v - enter visual line mode
-Shift + V in Command mode
+Shift + V in Command mode to highlight the whole line
 in visual mode, can press `j` or `k` to move cursor up down and highlight
 
 Escape into Command mode
 Esc
 Ctrl + C
 Ctrl + [
-
 
