@@ -6,6 +6,11 @@ k - go up
 h - move cursor left
 l - move cursor right
 
+setCursor
+setFlag
+setOption
+setColor
+
 Inline movements
 w - jump word
 e - jump to end of word
@@ -42,6 +47,7 @@ O - insert new line above
 	* - hop through result
 	# - hop back
 
+setCursor
 
 Insert mode
 a - insert at the cursor
