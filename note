@@ -5,6 +5,8 @@ j - go down
 k - go up
 h - move cursor left
 l - move cursor right
+{ - jump previous empty line (between paragraph)
+} - jump next empty line (between paragraph)
 
 Inline movements
 w - jump word
@@ -14,7 +16,6 @@ f + [char] - jump to the char
 t + [char] - jump to the char but before, not on the char
 adding Shift to 'f' and 't' will go back, and same function
 f + [char] and then ';' will jump next, ',' will go back
-
 
 yy - yank (copy line)
 p - paste one line below
@@ -28,7 +29,6 @@ dw - delete one word
 dwi - delete one word and go into insert mode
 cw - same as dwi
 dt + [char] - delete everything up to that char
-
 
 // yank is copy
 yj - yank currentd line and one down
