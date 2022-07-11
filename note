@@ -41,11 +41,15 @@ yw - yank a word
 // insert new line
 o - insert new line below
 O - insert new line above
+// Search
 / - start searching (hit Enter)
 	n - hop through result
 	Shift + n - hop back result
 	* - hop through result
 	# - hop back
+// Search and replace
+:s/[search_text]/[text_to_replace]  - in a single line
+:%s/[search_text]/[text_to_replace]/g - /g for the whole line
 
 setCursor
 
