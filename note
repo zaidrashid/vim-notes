@@ -53,6 +53,13 @@ O - insert new line above
 :%s/[search_text]/[text_to_replace]/g - /g for the whole line
 
 // Open new tab
+ctrl+w, n - open new tab above
+ctrl+w, S - horizontal splitting
+ctrl+w ,q - close one tab (or current tab)
+ctrl+w - switch windows
+ctrl+w J/K - move up or down tab
+ctrl+w H/L - move left or right tab 
+
 
 setCursor
 
