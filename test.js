@@ -4,4 +4,9 @@ function printArr(arr) {
 	arr.forEach(v => console.log(v));
 }
 
+function addArr(arr) {
+	return arr.reduce((prev, next)=> prev + next, 0);
+}
+
+console.log(addArr(arr));
 printArr(arr);
