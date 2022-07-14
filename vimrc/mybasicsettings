@@ -1,0 +1,11 @@
+set nocompatible
+filetype on
+filetype plugin on
+filetype indent on
+syntax on
+set number
+set cursorline
+set cursorcolumn
+:highlight CursorColumn ctermbg=238
+inoremap kj <ESC>
+set relativenumber
